@@ -42,3 +42,7 @@ class Booking{
 
     }
 }
+
+/* Logic
+
+1.  Location is an abstract class that will be inherited by all cabs, landmarks and the user */
