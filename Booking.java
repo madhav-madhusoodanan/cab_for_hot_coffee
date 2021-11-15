@@ -38,7 +38,11 @@ class Cab_manager {
 
 class Booking{
     Cab[] cabs = new Cab[5];
-    public static void main(String args[]) {
+    
+}
+
+class Solution{
+    public static void main(String[] args){
 
     }
 }
