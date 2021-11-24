@@ -91,7 +91,7 @@ class Cab_manager {
     public static Cab[] cabs;
     public static float fare() {
         time = 
-        // fare = distance * (total - free)cabs * """call class time_fare"""
+        // fare = distance * (total - free)cabs * ""call class time_fare""
         return 0;
     }
 }
