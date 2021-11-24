@@ -59,6 +59,8 @@ class Driver{
 }
 class time_fare
 {
+    int DAY_FARE= 10;
+    int NIGHT_FARE=15;
     Calendar cal = Calendar.getInstance();
     int currentHour = cal.get(Calendar.HOUR);
     if (currentHour +5> 10 && currentHour +5< 18) 
