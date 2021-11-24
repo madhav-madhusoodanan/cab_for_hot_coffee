@@ -1,4 +1,7 @@
 import java.util.*;
+import java.util.Calendar;
+
+
 /* maybe make constants out of it */
 class Global {
     public static int speed = 10;
@@ -41,6 +44,7 @@ class Driver{
     public void retrieveBooking(){
         /* make a file for a driver
            and store his bookings in that */
+        HashMap<Integer,String> map=new HashMap<Integer,String>();
     }
     public float averageRating(){
         float rating = 0;
@@ -53,6 +57,18 @@ class Driver{
         ratings.add(rate);
     }
 }
+class time_fare
+{
+    Calendar cal = Calendar.getInstance();
+    int currentHour = cal.get(Calendar.HOUR);
+    if (currentHour +5> 10 && currentHour +5< 18) 
+        return DAY_FARE;
+        
+    else 
+        return NIGHT_FARE;
+    
+}
+
 
 
 
@@ -72,7 +88,8 @@ class Cab extends Location {
 class Cab_manager {
     public static Cab[] cabs;
     public static float fare() {
-        // fare = distance * (total - free)cabs * a time based variable
+        time = 
+        // fare = distance * (total - free)cabs * """call class time_fare"""
         return 0;
     }
 }
