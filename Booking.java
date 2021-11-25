@@ -45,6 +45,7 @@ class Driver{
         /* make a file for a driver
            and store his bookings in that */
         HashMap<Integer,String> map=new HashMap<Integer,String>();
+        
     }
     public float averageRating(){
         float rating = 0;
